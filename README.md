@@ -45,5 +45,5 @@ php flarum cache:clear
 
 ## Links
 
-- [Packagist](https://packagist.org/packages/nosun/reply-to-see)
-- [GitHub](https://github.com/nosun/flarum-ext-reply2see)
+- [Packagist](https://packagist.org/packages/littlecxm/flarum-reply-to-see)
+- [GitHub](https://github.com/littlecxm/flarum-reply-to-see)
