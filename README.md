@@ -33,7 +33,7 @@ When creating/editing a post, you can simply use the [reply] BBCode to make it h
 install manually with composer:
 
 ```bash
-composer require littlecxm/flarum-reply-to-see
+composer require littlecxm/flarum-reply-to-see:*
 ```
 
 Updating
