@@ -1,0 +1,29 @@
+{
+  "name": "littlecxm/flarum-reply-to-see",
+  "description": "Add reply to see to your forum.",
+  "type": "flarum-extension",
+  "require": {
+    "flarum/core": "^1.2.0",
+    "flarum/bbcode": "^1.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Littlecxm\\ReplyToSee\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Reply to See",
+      "icon": {
+        "image": "resources/logo.svg",
+        "backgroundColor": "#e74c3c",
+        "backgroundSize": "90%",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "center"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
