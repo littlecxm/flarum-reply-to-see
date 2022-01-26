@@ -25,7 +25,7 @@ app.initializers.add("littlecxm/reply-to-see", () => {
   });
 
   extend(CommentPost.prototype, "content", function () {
-    if (app.session.user && app.current instanceof DiscussionPage)
+    if (app.session.user && app.current.matches(DiscussionPage)) {
       $(".reply2see_reply")
         .off("click")
         .on("click", () =>
@@ -35,9 +35,10 @@ app.initializers.add("littlecxm/reply-to-see", () => {
             false
           )
         );
-    else
+    } else {
       $(".reply2see_reply")
         .off("click")
         .on("click", () => app.modal.show(LogInModal));
+    }
   });
 });
